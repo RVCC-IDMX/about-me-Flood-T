@@ -16,6 +16,7 @@ header img{
 h1,h2,h3,h4,h5,h6{
     font-family: "Roboto+Condensed",sans-serif;
     font-size: 20pt;
+    text-align:center;
 }
 #hero,footer{
     text-align: center;
@@ -41,7 +42,7 @@ color:#5AAA6F
     color:#01330F
     }
 /*gallary*/
-#gallary{
+#gallary, article{
     border:3px dashed #01330F;
     border-radius: 50px;
 }
@@ -50,4 +51,23 @@ color:#5AAA6F
 }
 #gallery figure {
 text-align: center;
+}
+article div{
+    padding:1em;
+    max-width: 40rem;
+    padding-left:auto;
+    padding-right:auto;
+    padding-top:0px;
+
+    }
+#lit p:first-letter {
+    color: #01330F;
+    font-size:30pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float:left;
+    padding:.3em;
+    border:2px double #01330F;
+    box-shadow: 10px,10px,10px, black, inset;
+    background-image:radial-gradient(#FFF,#01330F);
+    padding-top:.1em;
 }
