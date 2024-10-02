@@ -10,6 +10,9 @@ header{
     text-align: center;
     color:#F0FFF4;
 }
+header img{
+    max-width: 100%;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: "Roboto+Condensed",sans-serif;
     font-size: 20pt;
@@ -20,11 +23,31 @@ h1,h2,h3,h4,h5,h6{
     color:#F0FFF4;
     border:3px solid #01330F;
     border-radius: 50px;
+    
 }
 #hero img{
     width:300px;
+    max-width: 100%;
 
 }
 #bio{
     color:#01330F;
+}
+/*hobbies*/
+#hobbies ul li:nth-child(odd){
+color:#5AAA6F
+}
+#hobbies ul li:nth-child(even){
+    color:#01330F
+    }
+/*gallary*/
+#gallary{
+    border:3px dashed #01330F;
+    border-radius: 50px;
+}
+#gallary img{
+    max-width:100%
+}
+#gallery figure {
+text-align: center;
 }
