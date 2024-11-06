@@ -107,16 +107,70 @@
         <section id="video">
             <h2>A Short Video</h2>
             <div id="videoContainer">
-                <iframe id="myVideo"
-                    width="560" 
-                    height="315" 
-                    src="https://www.youtube.com/embed/IxcHdGkYgfM?si=u4yP2HFe6lRWyLp-" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen>
-                </iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/md8erTJVsyI?si=kaEw4UuCnnxVPu6t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
+        </section>
+
+        <section id="contact">
+            <h2>contcat uc</h2>
+
+            <form id="conactFrom" mane="concatForm" method="post" data-netlify="true" >
+                <fieldset>
+                    <legend>Contact Form </legend>
+
+                    <div id="formElements">
+                     <!-- Name-->
+                        <label for="name">Name (required) </label>
+                        <input type="text" id="name" name="name" required>
+
+
+                        <!--email-->
+                        <label for="email"> email(required)</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <!-- telephone -->
+                        <label for="phone">Telephone </label>
+                        <input type="tel" id="tel" name="phone" >
+
+                        <!-- phone type -->
+                        <lable for="phoneType">Phone Type</lable>
+                        <select id="phoneType">
+                            <option value="selectphonetype">Select phone type</option>
+                            <option value="work">work</option>
+                            <option value="home">home</option>
+                        </select>
+
+                        <!--messsgae-->
+                        <lable for="message">Message</lable>
+                        <textarea id="message" name="message" rows="8"></textarea>
+                        <!--replay-->
+                        <fieldset>
+                            <legend>would you like a reply?</legend>
+
+                            <ul>
+                                <li>
+                                    <input type="radio" id="yes" name="reply" value="yes">
+                                    yes I would like a reply
+                                    <label for="yes"></label>
+                                </li>
+
+                                <li>
+                                    <input type="radio" id="no" name="reply" value="no" checked>
+                                    no thanks
+                                    <label for="no"></label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <!-- Submit-->
+                        <button type="submit"> send </button>
+
+
+                    </div>
+
+                </fieldset>
+
+            </form>
+
         </section>
     </main>
     <footer>
